@@ -28,3 +28,14 @@ jobs:
         with:
             default_author: github_actions
             new_branch: edit_${{ steps.branch_name_gen.outputs.bname }}
+            
+      - name: 🔎 Generate PR
+        uses: peter-evans/create-pull-request@v5.0.2
+        with:
+            token: ${{ secrets.PAT }}
+            committer: GitHub <noreply@github.com>
+            author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+            signoff: false
+            branch: edit_${{ steps.branch_name_gen.outputs.bname }}
+            delete-branch: true
+            draft: false

@@ -35,6 +35,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5.0.2
         with:
             token: ${{ secrets.PAT }}
+            base: master
             committer: GitHub <noreply@github.com>
             author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
             signoff: false

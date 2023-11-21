@@ -25,6 +25,7 @@ jobs:
         with:
             default_author: github_actions
             new_branch: temp
+            push: false
             
             
       - name: 🔎 Generate PR
@@ -34,7 +35,6 @@ jobs:
             committer: GitHub <noreply@github.com>
             author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
             signoff: false
-            base: temp
             branch_suffix: timestamp
             branch: edit
             delete-branch: true

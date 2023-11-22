@@ -17,8 +17,11 @@ jobs:
         env:
             EDIT_URL: ${{ github.event.client_payload.edit_url }}
         run: |
-            rm ./manifest.json
-            wget $EDIT_URL -O ./manifest.json
+            wget $EDIT_URL -O ./manifest-ugly.json
+            sudo apt-get update
+            sudo apt-get install jq -y
+            jq . ./manifest-ugly.json > ./manifest.json
+            rm ./manifest-ugly.json
             
       - name: 🔎 Generate PR
         uses: peter-evans/create-pull-request@v5.0.2

@@ -1,0 +1,36 @@
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 📦 Checkout Self
+        uses: actions/checkout@v4.1.1
+
+      - name: 🌐 Store Changes
+        id: changestore
+        run: echo "manifest=$(cat ./manifest.json)" >> $GITHUB_OUTPUT
+            
+      - name: 🗑️ Empty Workspace
+        uses: freenet-actions/action-clean@v1.1.2
+            
+      - name: 📦 Checkout Target
+        uses: actions/checkout@v4.1.1
+        with:
+            repository: AreWeAntiCheatYet/AreWeAntiCheatYet
+            token: ${{ secrets.PAT_WRITEBACK }}
+            
+      - name: 📃 Import Changes
+        run: |
+            echo ${{ steps.changestore.outputs.manifest }} > ./games.json
+            
+      - name: ✍ Writeback
+        uses: EndBug/add-and-commit@v9.1.3
+        with:
+            default_author: github_actions
+            push: true
+            message: 'Importing recent changes from the master manifest'

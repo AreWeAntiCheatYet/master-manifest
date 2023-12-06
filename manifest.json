@@ -405,7 +405,8 @@
     ],
     "notes": [
       [
-        "Requires Proton GE or Proton Experimental"
+        "Requires Proton GE or Proton Experimental",
+        ""
       ]
     ],
     "updates": [
@@ -1148,17 +1149,12 @@
     "name": "Hell Let Loose",
     "logo": "",
     "native": false,
-    "status": "Planned",
-    "reference": "",
+    "status": "Supported",
+    "reference": "https://www.reddit.com/r/linux_gaming/comments/16v2ula/hell_let_loose_works_on_linux_now/",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [
-      [
-        "Leave your feedback!",
-        "https://www.reddit.com/r/HellLetLoose/comments/tevxzz/comment/i0ux2ks/?utm_source=share&utm_medium=web2x&context=3"
-      ]
-    ],
+    "notes": [],
     "updates": [
       {
         "name": "Linux EAC files added",
@@ -1169,6 +1165,11 @@
         "name": "Steam Deck Support Planned",
         "date": "Apr 3, 2023, 0:00 AM UTC",
         "reference": "https://youtu.be/DJqh61nfuTs?t=386"
+      },
+      {
+        "name": "No official acknowledgement, but widespread reports that the game works now.",
+        "date": "Sep 29, 2023, 0:00 AM UTC",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/16v2ula/hell_let_loose_works_on_linux_now/"
       }
     ],
     "storeIds": {
@@ -5092,7 +5093,7 @@
   },
   {
     "url": "https://www.callofduty.com/modernwarfare2/pc",
-    "name": "Call of Duty: Modern Warfare 2 (2022)",
+    "name": "Call of Duty: Modern Warfare II (2022)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -5367,6 +5368,51 @@
     "reference": "",
     "anticheats": [
       "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "https://www.avaonline.global/",
+    "slug": "ava-global",
+    "name": "A.V.A (Global)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "cod-mw3-2023",
+    "name": "Call of Duty: Modern Warfare III (2023)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "RICOCHET"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {}
+  },
+  {
+    "url": "",
+    "slug": "starsiege-deadzone",
+    "name": "Starsiege: Deadzone",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],

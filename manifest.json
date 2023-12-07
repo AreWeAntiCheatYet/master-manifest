@@ -5404,16 +5404,15 @@
     "storeIds": {}
   },
   {
-    "url": "https://playeternalreturn.com/main",
-    "slug": "eternal-return",
-    "name": "Eternal Return",
+    "url": "https://www.playdeadzone.com/",
+    "slug": "starsiege-deadzone",
+    "name": "Starsiege: Deadzone",
     "logo": "",
     "native": false,
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "XIGNCODE3",
-      "UNCHEATER"
+      "Easy Anti-Cheat"
     ],
     "updates": [],
     "notes": [],

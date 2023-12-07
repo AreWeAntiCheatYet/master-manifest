@@ -3,6 +3,7 @@ on:
     types:
       - closed
 
+name: Writeback manifest changes
 jobs:
   if_merged:
     if: github.event.pull_request.merged == true
@@ -13,7 +14,9 @@ jobs:
 
       - name: 🌐 Store Changes
         id: changestore
-        run: echo "manifest=$(cat ./manifest.json)" >> $GITHUB_OUTPUT
+        run: |
+            mkdir /var/tmp/manifest
+            cp ./manifest.json /var/tmp/manifest/
             
       - name: 🗑️ Empty Workspace
         uses: freenet-actions/action-clean@v1.1.2
@@ -26,7 +29,8 @@ jobs:
             
       - name: 📃 Import Changes
         run: |
-            echo ${{ steps.changestore.outputs.manifest }} > ./games.json
+            rm ./games.json
+            mv /var/tmp/manifest/manifest.json ./games.json
             
       - name: ✍ Writeback
         uses: EndBug/add-and-commit@v9.1.3

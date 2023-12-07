@@ -13,7 +13,6 @@ jobs:
         uses: actions/checkout@v4.1.1
 
       - name: 🌐 Store Changes
-        id: changestore
         run: |
             mkdir /var/tmp/manifest
             cp ./manifest.json /var/tmp/manifest/

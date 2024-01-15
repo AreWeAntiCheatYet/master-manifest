@@ -3908,14 +3908,16 @@
     "name": "Grandchase",
     "logo": "",
     "native": false,
-    "status": "Broken",
-    "reference": "",
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/985810",
     "anticheats": [
       "nProtect GameGuard"
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "985810"
+    },
     "slug": "grandchase"
   },
   {
@@ -4206,6 +4208,10 @@
       "Unknown (Custom)"
     ],
     "notes": [
+      [
+        "Will stop working in the future due to the planned implementation of Vanguard kernel-level anticheat",
+        "https://www.youtube.com/watch?v=9U_jEzKf0_0&t=732s"
+      ],
       [
         "Works with Lutris",
         "https://reddit.com/r/leagueoflinux/wiki/index"
@@ -5211,14 +5217,16 @@
     "name": "THE FINALS",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "notes": [],
     "updates": [],
-    "storeIds": {},
+    "storeIds": {
+      "steam": "2073850"
+    },
     "slug": "the-finals"
   },
   {

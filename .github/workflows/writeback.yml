@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: 📦 Checkout Self
         uses: actions/checkout@v4.1.1
+        with:
+            token: ${{ secrets.PAT }}
         
       - name: 🔬 Merge Changes
         run: |

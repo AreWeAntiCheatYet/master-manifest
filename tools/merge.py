@@ -34,8 +34,8 @@ def main() -> int:
                     new_time = parser.parse(game_new["dateChanged"])
                     if new_time > old_time:
                         print("changes for entry are newer! replacing...")
-                    games_orig[idx] = copy.deepcopy(game_new)
-                    edited.append(game["slug"])
+                        games_orig[idx] = copy.deepcopy(game_new)
+                        edited.append(game["slug"])
         idx += 1
 
     # merge new items

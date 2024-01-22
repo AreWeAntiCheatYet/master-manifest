@@ -1,0 +1,16 @@
+on: [push, pull_request]
+
+name: Test merging changes
+jobs:
+  test_merge:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 📦 Checkout Self
+        uses: actions/checkout@v4.1.1
+        
+      - name: 🔬 Merge Changes
+        run: |
+            pipx install pipenv==2023.3.20
+            pipenv sync && pipenv lock
+            pipenv run python ./tools/merge.py
+            jq . ./manifest-merged.json > ./manifest-clean.json

@@ -20,7 +20,7 @@ jobs:
             wget $EDIT_URL -O ./manifest-ugly.json
             sudo apt-get update
             sudo apt-get install jq -y
-            jq . ./manifest-ugly.json > ./manifest.json
+            jq . ./manifest-ugly.json > ./manifest-new.json
             rm ./manifest-ugly.json
             
       - name: 🔎 Generate PR

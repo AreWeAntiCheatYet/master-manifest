@@ -68,7 +68,7 @@
       {
         "name": "Not confident in anti-cheat",
         "date": "Feb 07, 2022, 6:59 AM GMT+2",
-        "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781?s=20&t=d7Ya8TH72wrGKXqZIi9gBg"
+        "reference": "https://twitter.com/TimSweeneyEpic/status/1490565925648715781"
       },
       {
         "name": "Removed Hyperion",
@@ -88,7 +88,7 @@
       }
     },
     "slug": "fortnite",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-22T17:23:46.000Z"
   },
   {
     "url": "",
@@ -4404,10 +4404,10 @@
     "name": "League of Legends",
     "logo": "",
     "native": false,
-    "status": "Running",
-    "reference": "",
+    "status": "Denied",
+    "reference": "https://github.com/AreWeAntiCheatYet/AreWeAntiCheatYet/assets/33342705/266b364f-8964-4ae2-9cc4-58e2fd5f9947",
     "anticheats": [
-      "Unknown (Custom)"
+      "Vanguard"
     ],
     "notes": [
       [
@@ -4431,7 +4431,7 @@
       }
     },
     "slug": "league-of-legends",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-23T02:57:04.027Z"
   },
   {
     "url": "",

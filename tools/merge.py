@@ -1,7 +1,7 @@
 import copy
 import json
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional, TypeVar
 
 from dateutil import parser
 
@@ -11,6 +11,16 @@ RETCODE: int = 0
 def load_json_file(fpath: str) -> List[Dict[str, Any]]:
     with open(fpath, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+T = TypeVar("T")
+
+
+def get_item_from_list(l: List[T], i: int) -> Optional[T]:
+    try:
+        return l[i]
+    except Exception:
+        return None
 
 
 def main() -> int:
@@ -36,6 +46,8 @@ def main() -> int:
                         print("changes for entry are newer! replacing...")
                         games_orig[idx] = copy.deepcopy(game_new)
                         edited.append(game["slug"])
+                    else:
+                        edited.append(game["slug"])
         idx += 1
 
     # merge new items
@@ -48,6 +60,14 @@ def main() -> int:
     idx = 0
     for game in games_orig:
         if game not in games_new:
+            # double check first
+            if (get_item_from_list(games_new,
+                                   idx) is not None) and (get_item_from_list(
+                                       games_orig, idx) is not None):
+                print(
+                    f"{game['slug']} exists in manifest with changes, skipping..."
+                )
+                continue
             print(f"{game['slug']} is not in new manifest, removing...")
             games_orig.pop(idx)
         idx += 1

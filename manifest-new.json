@@ -5448,12 +5448,7 @@
     "anticheats": [
       "Hyperion"
     ],
-    "notes": [
-      [
-        "Vinegar or Grapejuice Highly Recommended",
-        null
-      ]
-    ],
+    "notes": [],
     "updates": [
       {
         "name": "Future Wine Support",
@@ -5463,7 +5458,7 @@
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-02-13T21:30:05.957Z"
+    "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
     "url": "https://www.boundarygame.com/",
@@ -6102,5 +6097,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-12T20:20:01.314Z"
+  },
+  {
+    "url": "",
+    "slug": "hoard",
+    "name": "Hoard",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-13T21:32:45.617Z"
   }
 ]

@@ -6121,6 +6121,23 @@
   },
   {
     "url": "",
+    "slug": "veiled-experts",
+    "name": "Veiled Experts",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-14T22:37:23.636Z"
+  },
+  {
+    "url": "",
     "slug": "enlisted-reinforced",
     "name": "Enlisted: Reinforced",
     "logo": "",

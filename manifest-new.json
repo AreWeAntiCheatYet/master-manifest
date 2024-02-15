@@ -6154,18 +6154,19 @@
   },
   {
     "url": "",
-    "slug": "fifa-24",
-    "name": "FIFA 24",
+    "slug": "tree-of-savior",
+    "name": "Tree of Savior",
     "logo": "",
     "native": false,
-    "status": "Denied",
+    "status": "Supported",
     "reference": "",
     "anticheats": [
-      "EA anticheat"
+      "VAC",
+      "Nexon Game Security"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-15T20:51:54.169Z"
+    "dateChanged": "2024-02-15T20:52:22.592Z"
   }
 ]

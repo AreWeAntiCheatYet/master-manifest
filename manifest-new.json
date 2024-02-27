@@ -6222,7 +6222,7 @@
     "dateChanged": "2024-02-17T21:20:07.370Z"
   },
   {
-    "url": "fivem.net",
+    "url": "https://fivem.net",
     "slug": "fivem",
     "name": "FiveM",
     "logo": "",
@@ -6240,7 +6240,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-02-17T21:47:14.286Z"
+    "dateChanged": "2024-02-27T21:32:53.103Z"
   },
   {
     "url": "",
@@ -6550,21 +6550,5 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-02-27T21:14:34.272Z"
-  },
-  {
-    "url": "https://wotblitz.com/",
-    "slug": "wot-blitz",
-    "name": "World of Tanks Blitz",
-    "logo": "",
-    "native": false,
-    "status": "Running",
-    "reference": "",
-    "anticheats": [
-      "Unknown (Custom)"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-02-27T21:32:37.805Z"
   }
 ]

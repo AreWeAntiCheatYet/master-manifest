@@ -2107,7 +2107,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "combat-arms-reloaded",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-04-13T22:00:24.412Z"
   },
   {
     "url": "",
@@ -6899,5 +6899,22 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-04-13T00:38:46.049Z"
+  },
+  {
+    "url": "",
+    "slug": "combat-arms-reloaded",
+    "name": "Combat Arms: Reloaded",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T22:00:24.412Z"
   }
 ]

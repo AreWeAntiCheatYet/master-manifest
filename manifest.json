@@ -6862,5 +6862,42 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-04-11T19:23:20.579Z"
+  },
+  {
+    "url": "",
+    "slug": "csgo-esl",
+    "name": "Counter-Strike: Global Offensive (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "midair-2",
+    "name": "Midair 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Speculative, Unreleased",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T00:38:46.049Z"
   }
 ]

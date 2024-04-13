@@ -521,10 +521,6 @@
       [
         "Enabled on Steam and Epic Games Store.",
         "https://store.steampowered.com/news/app/381210/view/3723958226061651097"
-      ],
-      [
-        "Epic Games Store version might be broken. Steam Recommended.",
-        null
       ]
     ],
     "updates": [
@@ -557,7 +553,7 @@
       }
     },
     "slug": "dead-by-daylight",
-    "dateChanged": "2024-04-13T22:01:29.190Z"
+    "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
     "url": "http://www.destinythegame.com/",
@@ -6903,5 +6899,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-04-13T00:38:46.049Z"
+  },
+  {
+    "url": "",
+    "slug": "2xko",
+    "name": "2XKO",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "Unreleased, Speculative",
+    "anticheats": [
+      "Vanguard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T23:13:17.478Z"
   }
 ]

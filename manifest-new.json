@@ -320,7 +320,7 @@
     "notes": [
       [
         "Show your support!",
-        "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-49179"
+        "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-57005"
       ]
     ],
     "updates": [
@@ -343,6 +343,11 @@
         "name": "Show your support! (Bug tracker)",
         "date": "May 16, 2023, 0:00 UTC",
         "reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-49179"
+      },
+      {
+        "name": "Show your support! (Bug tracker)",
+        "date": "March 23, 2024, 0:00 UTC",
+        "reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-58221"
       }
     ],
     "storeIds": {
@@ -353,7 +358,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-03-13T21:55:26.695Z"
+    "dateChanged": "2024-03-14T21:55:26.695Z"
   },
   {
     "url": "https://www.smitegame.com/",
@@ -1174,10 +1179,10 @@
     "name": "Plants vs. Zombies: Battle for Neighborville",
     "logo": "",
     "native": false,
-    "status": "Supported",
-    "reference": "https://www.protondb.com/app/1262240#ZGsEq7x6Kb",
+    "status": "Denied",
+    "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "EA anticheat"
     ],
     "notes": [],
     "updates": [
@@ -1185,13 +1190,18 @@
         "name": "Added required EAC files",
         "date": "Mar 31, 2022, 1:23 AM UTC",
         "reference": "https://steamdb.info/app/1262240/history/?changeid=14379241"
+      },
+      {
+        "name": "Game uses the now incompatible EA anticheat",
+        "date": "2024-04-18T23:10:43Z",
+        "reference": "https://answers.ea.com/t5/Other-Plants-vs-Zombies-Games/ANNOUNCEMENT-Plants-vs-Zombies-Battle-for-Neighborville/td-p/13645726"
       }
     ],
     "storeIds": {
       "steam": "1262240"
     },
     "slug": "plants-vs-zombies-battle-for-neighborville",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.hellletloose.com/",
@@ -2105,13 +2115,14 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "BattlEye"
+      "BattlEye",
+      "nProtect GameGuard"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "combat-arms-reloaded",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "",
@@ -2420,8 +2431,8 @@
     "name": "Intruder",
     "logo": "",
     "native": false,
-    "status": "Denied",
-    "reference": "https://user-images.githubusercontent.com/13716824/154804088-77eefcbb-a8c5-4877-963a-cc36b60b33d9.png",
+    "status": "Running",
+    "reference": "https://steamdb.info/patchnotes/13913874/#experimental-linux-compatibility-other-housekeeping",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
@@ -2431,7 +2442,7 @@
       "steam": "518150"
     },
     "slug": "intruder",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "",
@@ -5028,20 +5039,32 @@
     "url": "https://midnightghosthunt.com/",
     "name": "Midnight Ghost Hunt",
     "logo": "",
-    "status": "Broken",
+    "status": "Running",
     "native": false,
-    "reference": "https://www.protondb.com/app/700330#lFAi9NdOla",
+    "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "notes": [
       [
         "Tooltip Videos can cause crashes (Disable in Options > Gameplay)",
-        ""
+        null
       ],
       [
         "While the game is listed as broken, you may have luck when running steam inside of flatpak",
         "https://github.com/Starz0r/AreWeAntiCheatYet/issues/903"
+      ],
+      [
+        "Proton 9>= Required",
+        null
+      ],
+      [
+        "EOS Bootstrapper might fail on initial launch",
+        null
+      ],
+      [
+        "Posing as the Steam Deck could help (env SteamDeck=1)",
+        null
       ]
     ],
     "updates": [
@@ -5055,7 +5078,7 @@
       "steam": "915810"
     },
     "slug": "midnight-ghost-hunt",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.playredfox.com/rumble_fighter",
@@ -5135,7 +5158,12 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Steam Flatpak Recommended",
+        null
+      ]
+    ],
     "updates": [
       {
         "name": "Does this prevent people from playing VRChat on platforms like SteamOS on the Steam Deck? - NO!",
@@ -5147,7 +5175,7 @@
       "steam": "438100"
     },
     "slug": "vrchat",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.nttgameonline.com/knight/",
@@ -6293,7 +6321,8 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "Denuvo Anti-Cheat"
     ],
     "updates": [],
     "notes": [
@@ -6303,7 +6332,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-02-19T21:15:15.800Z"
+    "dateChanged": "2024-02-20T21:15:15.800Z"
   },
   {
     "url": "",
@@ -6413,9 +6442,18 @@
       "Vanguard"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Playable on Android through Waydroid",
+        null
+      ],
+      [
+        "Alternatively available on iOS",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-02-22T20:28:08.195Z"
+    "dateChanged": "2024-02-23T20:28:08.195Z"
   },
   {
     "url": "",
@@ -6815,9 +6853,14 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
     "storeIds": {},
-    "dateChanged": "2024-03-11T20:17:20.227Z"
+    "dateChanged": "2024-05-07T03:28:06.795Z"
   },
   {
     "url": "",
@@ -6919,5 +6962,243 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-04-13T23:13:17.478Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-esea",
+    "name": "Counter-Strike 2 (ESEA)",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "https://support.esea.net/hc/en-us/articles/360008891073-Does-the-ESEA-Client-support-Linux-Mac-OS-or-Apple-computers-in-general-",
+    "anticheats": [
+      "ESEA"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-24T21:38:19.487Z"
+  },
+  {
+    "url": "",
+    "slug": "synduality-echo-of-ada",
+    "name": "SYNDUALITY Echo of Ada",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T23:13:17.478Z"
+  },
+  {
+    "url": "https://wargaming.net/worldoftanks/",
+    "slug": "world-of-tanks",
+    "name": "World of Tanks",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-02-27T21:32:37.805Z"
+  },
+  {
+    "url": "",
+    "slug": "level-zero-extraction",
+    "name": "Level Zero: Extraction",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Working in Closed Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-04-13T23:13:17.478Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-esl",
+    "name": "Counter-Strike 2 (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "arena-breakout-infinite",
+    "name": "Arena Breakout: Infinite",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "pixel-gun-3d-pc-edition",
+    "name": "Pixel Gun 3D: PC Edition",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "marvel-rivals",
+    "name": "Marvel Rivals",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "NEAC Protect"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "caliber",
+    "name": "Caliber",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "return-alive",
+    "name": "Return Alive",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "wow",
+    "name": "World of Warcraft",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "dungeon-stalkers",
+    "name": "Dungeon Stalkers",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Working in Closed Beta",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
+  },
+  {
+    "url": "",
+    "slug": "megaton-musashi-w-wired",
+    "name": "MEGATON MUSASHI W: WIRED",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-03-13T21:56:13.188Z"
   }
 ]

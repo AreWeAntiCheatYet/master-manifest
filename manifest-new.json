@@ -7389,5 +7389,37 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-05-28T00:05:37.755Z"
+  },
+  {
+    "url": "",
+    "slug": "dark-and-darker",
+    "name": "Dark and Darker",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "IronShield"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-05-22T22:24:18.973Z"
+  },
+  {
+    "url": "",
+    "slug": "mortal-kombat-x-for-esl",
+    "name": "Mortal Kombat X (ESL)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "ESL Wire"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-05-30T23:18:21.782Z"
   }
 ]

@@ -8305,5 +8305,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-25T21:21:20.558Z"
+  },
+  {
+    "url": "https://www.cbjq.com/",
+    "slug": "snowbreak-containment-zone-china",
+    "name": "Snowbreak: Containment Zone (CHN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "https://www.cbjq.com/show-7126-3-1.html",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-26T02:12:36.754Z"
   }
 ]

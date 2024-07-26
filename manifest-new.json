@@ -44,8 +44,8 @@
     "storeIds": {
       "steam": "976730"
     },
-    "slug": "halo-the-master-chief-collection",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "slug": "snowbreak-containment-zone-overseas",
+    "dateChanged": "2024-07-26T02:07:41.574Z"
   },
   {
     "url": "https://www.fortnite.com/",
@@ -8305,5 +8305,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-25T21:21:20.558Z"
+  },
+  {
+    "url": "https://snowbreak.amazingseasun.com/",
+    "slug": "snowbreak-containment-zone-overseas",
+    "name": "Snowbreak: Containment Zone (INTL)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "https://www.protondb.com/app/2668080",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-07-26T02:07:41.574Z"
   }
 ]

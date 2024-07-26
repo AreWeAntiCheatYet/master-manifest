@@ -6810,7 +6810,7 @@
     "dateChanged": "2024-03-07T22:15:44.135Z"
   },
   {
-    "url": "",
+    "url": "https://zenless.hoyoverse.com/",
     "slug": "zzz",
     "name": "Zenless Zone Zero",
     "logo": "",
@@ -6818,8 +6818,7 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "miHoYo Protect",
-      "Anti-Cheat Expert"
+      "miHoYo Protect"
     ],
     "updates": [],
     "notes": [
@@ -6829,7 +6828,7 @@
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-07-12T19:07:43.992Z"
+    "dateChanged": "2024-07-26T03:21:05.138Z"
   },
   {
     "url": "",

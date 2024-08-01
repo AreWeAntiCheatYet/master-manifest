@@ -1128,19 +1128,22 @@
     ],
     "notes": [
       [
-        "Since 3.8: Game's Anti-Cheat Service is allowing Proton on clean installs, from update release date.",
-        ""
-      ],
-      [
-        "Since 3.5: Game's Anti-Cheat Service observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
-        ""
-      ],
-      [
-        "Prior to 3.5: would run when using workarounds (at least 2 available)",
+        "Needed workarounds prior to 3.5",
         ""
       ]
     ],
-    "updates": [],
+    "updates": [
+      {
+        "name": "v3.8: Game Anti-Cheat is allowing Proton on clean installs, on update release.",
+        "date": "Jul 5, 2023, 11:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/15sskjh/"
+      },
+      {
+        "name": "v3.5: Game Anti-Cheat observed allowing Proton in restricted scenarios, 2 business weeks after update launch.",
+        "date": "Mar 3, 2023, 11:00:00 UTC+8",
+        "reference": "https://www.reddit.com/r/linux_gaming/comments/123zllz/"
+      }
+    ],
     "storeIds": {
       "epic": {
         "namespace": "879b0d8776ab46a59a129983ba78f0ce",
@@ -1148,7 +1151,7 @@
       }
     },
     "slug": "genshin-impact",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-01T00:35:00.000Z"
   },
   {
     "url": "https://www.djmaxrespect.com/",
@@ -3657,6 +3660,10 @@
       [
         "Workarounds required.",
         ""
+      ],
+      [
+        "Also playable on GeForce NOW.",
+        "https://blogs.nvidia.com/blog/geforce-now-thursday-honkai-star-rail/"
       ]
     ],
     "updates": [],
@@ -3667,7 +3674,7 @@
         "slug": "honkai-star-rail"
       }
     },
-    "dateChanged": "2024-02-12T19:52:57.848Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "",
@@ -4876,13 +4883,14 @@
     "native": false,
     "reference": "",
     "anticheats": [
-      "Unknown (Custom)"
+      "Crackproof",
+      "WFSDrv"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "another-eden",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "https://overwatch2.playoverwatch.com/en-us/trailer",
@@ -5270,13 +5278,17 @@
     "url": "https://www.lostlight.game/",
     "name": "Lost Light",
     "logo": "",
-    "status": "Supported",
+    "status": "Broken",
     "native": false,
     "reference": "https://www.protondb.com/app/1797880",
     "anticheats": [
       "NetEase Anti-Cheat Expert"
     ],
     "notes": [
+      [
+        "Recent reports mention the game crashing as well as detecting Proton/Wine as cheating software when in a server.",
+        ""
+      ],
       [
         "May require Proton-GE",
         ""
@@ -5287,7 +5299,7 @@
       "steam": "1797880"
     },
     "slug": "lost-light",
-    "dateChanged": "2024-07-30T04:40:56.000Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "https://www.shatterline.gg",
@@ -7262,12 +7274,16 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Broken in Closed Beta",
+        "Workarounds required.",
         null
+      ],
+      [
+        "Also playable on GeForce NOW.",
+        "https://www.reddit.com/r/GeForceNOW/comments/1dqsm7u/wuthering_waves_now_available_in_gfn/"
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-05-06T10:56:58.594Z"
+    "dateChanged": "2024-07-31T00:00:00.000Z"
   },
   {
     "url": "",
@@ -8368,5 +8384,65 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-07-30T22:31:34.201Z"
+  },
+  {
+    "url": "https://snowbreak.amazingseasun.com/",
+    "slug": "snowbreak-containment-zone",
+    "name": "Snowbreak: Containment Zone (ROW/INTL)",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Seasun Protect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {
+      "steam": "2668080"
+    },
+    "dateChanged": "2024-07-31T00:00:00.000Z"
+  },
+  {
+    "url": "https://snowbreak.amazingseasun.com/",
+    "slug": "snowbreak-containment-zone-china",
+    "name": "Snowbreak: Containment Zone (CN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Workarounds required.",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-07-31T00:00:00.000Z"
+  },
+  {
+    "url": "",
+    "slug": "decimated",
+    "name": "Decimated",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-08-01T01:51:19.285Z"
   }
 ]

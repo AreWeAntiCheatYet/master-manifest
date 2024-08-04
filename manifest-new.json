@@ -5109,7 +5109,7 @@
       "steam": "357500"
     },
     "slug": "rumble-fighter-unleashed",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-04T22:02:05.827Z"
   },
   {
     "url": "https://www.focus-entmt.com/en/games/hood-outlaws-legends",
@@ -8492,5 +8492,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-04T00:40:30.647Z"
+  },
+  {
+    "url": "",
+    "slug": "rumble-fighter-unleashed",
+    "name": "Rumble Fighter: Unleashed",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-04T22:02:05.827Z"
   }
 ]

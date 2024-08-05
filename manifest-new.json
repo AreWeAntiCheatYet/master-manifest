@@ -5094,20 +5094,22 @@
     "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
-    "url": "",
-    "slug": "rumble-fighter-unleashed",
+    "url": "https://www.playredfox.com/rumble_fighter",
     "name": "Rumble Fighter: Unleashed",
     "logo": "",
-    "native": false,
     "status": "Broken",
-    "reference": "",
+    "native": false,
+    "reference": "https://www.protondb.com/app/357500",
     "anticheats": [
       "nProtect GameGuard"
     ],
-    "updates": [],
     "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-08-04T22:02:05.827Z"
+    "updates": [],
+    "storeIds": {
+      "steam": "357500"
+    },
+    "slug": "rumble-fighter-unleashed",
+    "dateChanged": "2024-08-05T04:40:56.000Z"
   },
   {
     "url": "https://www.focus-entmt.com/en/games/hood-outlaws-legends",
@@ -5491,14 +5493,18 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Denied",
+    "status": "Running",
     "reference": "https://i.redd.it/wcngc8xapnlc1.png",
     "anticheats": [
       "Hyperion"
     ],
     "notes": [
       [
-        "Use Vinegar (Recommended)",
+        "Use Sober (Recommended, Proprietary)",
+        "https://sober.vinegarhq.org/"
+      ],
+      [
+        "Use Vinegar",
         "https://vinegarhq.org/"
       ],
       [
@@ -5516,11 +5522,16 @@
         "name": "Wine Support Yanked",
         "date": "Fri, 01 Mar 2024 20:45:14 GMT",
         "reference": "https://vinegarhq.org/Home/rol_faq.html"
+      },
+      {
+        "name": "Game can now run using a proprietary runtime environment without the need for Wine.",
+        "date": "Fri, 01 August 2024 1:30:13 GMT",
+        "reference": "https://sober.vinegarhq.org/"
       }
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-03-01T20:45:31.412Z"
+    "dateChanged": "2024-03-02T20:45:31.412Z"
   },
   {
     "url": "https://www.boundarygame.com/",
@@ -8490,5 +8501,21 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-08-04T00:40:30.647Z"
+  },
+  {
+    "url": "",
+    "slug": "exos-heroes",
+    "name": "Exos Heroes",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-05T07:04:34.647Z"
   }
 ]

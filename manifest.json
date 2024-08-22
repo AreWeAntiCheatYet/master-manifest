@@ -8931,5 +8931,44 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-21T20:57:30.623Z"
+  },
+  {
+    "url": "https://splitgate.com",
+    "slug": "splitgate-2",
+    "name": "Splitgate 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "EQU8"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Anticheat broken in closed alpha",
+        null
+      ]
+    ],
+    "storeIds": {
+      "steam": "2918300"
+    },
+    "dateChanged": "2024-08-22T05:58:13.928Z"
+  },
+  {
+    "url": "https://xeragame.com/",
+    "slug": "xera-survival",
+    "name": "XERA: Survival",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-22T21:55:51.977Z"
   }
 ]

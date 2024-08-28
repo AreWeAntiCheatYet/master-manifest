@@ -4443,7 +4443,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "myth-of-empires",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-08-28T04:16:11.492Z"
   },
   {
     "url": "https://leagueoflegends.com",
@@ -9077,5 +9077,21 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-26T20:56:24.259Z"
+  },
+  {
+    "url": "",
+    "slug": "myth-of-empires",
+    "name": "Myth of Empires",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-08-28T04:16:11.492Z"
   }
 ]

@@ -7498,12 +7498,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "IronShield"
+      "IronShield",
+      "Tavern"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-05-22T22:24:18.973Z"
+    "dateChanged": "2024-05-23T22:24:18.973Z"
   },
   {
     "url": "",
@@ -9473,5 +9474,37 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-09-08T21:25:57.076Z"
+  },
+  {
+    "url": "",
+    "slug": "synergy",
+    "name": "Synergy",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-09T19:46:10.761Z"
+  },
+  {
+    "url": "",
+    "slug": "revelations-2012",
+    "name": "Revelations 2012",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-09T19:46:10.765Z"
   }
 ]

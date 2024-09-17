@@ -147,7 +147,12 @@
     "anticheats": [
       "Vanguard"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Possibly playable through a macOS VM",
+        null
+      ]
+    ],
     "updates": [
       {
         "name": "Vanguard developer claims Linux has \"too much attack surface\".",
@@ -162,7 +167,7 @@
       }
     },
     "slug": "valorant",
-    "dateChanged": "2024-01-26T01:27:56.161Z"
+    "dateChanged": "2024-09-01T22:22:14.140Z"
   },
   {
     "url": "https://www.halowaypoint.com/de-de/halo-infinite",
@@ -312,7 +317,7 @@
     "logo": "",
     "native": false,
     "status": "Denied",
-    "reference": "https://i.redd.it/l4supmm5h0oc1.png",
+    "reference": "https://r6fix.ubi.com/projects/RAINBOW6-SIEGE-LIVE/issues/LIVE-59642",
     "anticheats": [
       "FairFight",
       "BattlEye"
@@ -358,7 +363,7 @@
       }
     },
     "slug": "rainbow-six-siege",
-    "dateChanged": "2024-03-14T21:55:26.695Z"
+    "dateChanged": "2024-09-08T21:25:56.675Z"
   },
   {
     "url": "https://www.smitegame.com/",
@@ -530,7 +535,7 @@
         "https://store.steampowered.com/news/app/381210/view/3723958226061651097"
       ],
       [
-        "Epic Games Store version might be broken. Steam Recommended.",
+        "Epic Games Store is broken on Linux. Steam Recommended.",
         null
       ]
     ],
@@ -564,7 +569,7 @@
       }
     },
     "slug": "dead-by-daylight",
-    "dateChanged": "2024-04-13T22:01:29.190Z"
+    "dateChanged": "2024-09-01T22:22:14.167Z"
   },
   {
     "url": "http://www.destinythegame.com/",
@@ -1134,6 +1139,10 @@
       [
         "Needed workarounds prior to 3.5",
         ""
+      ],
+      [
+        "Possible 100% CPU Usage bug on Linux, play at your own risk",
+        null
       ]
     ],
     "updates": [
@@ -1155,7 +1164,7 @@
       }
     },
     "slug": "genshin-impact",
-    "dateChanged": "2024-08-01T00:35:00.000Z"
+    "dateChanged": "2024-09-02T22:03:09.321Z"
   },
   {
     "url": "https://www.djmaxrespect.com/",
@@ -1923,15 +1932,21 @@
     "status": "Running",
     "reference": "https://www.gamingonlinux.com/2023/09/proton-experimental-fixes-up-metro-exodus-sword-art-online-integral-factor-and-more/",
     "anticheats": [
-      "XIGNCODE3"
+      "nProtect GameGuard"
     ],
     "notes": [],
-    "updates": [],
+    "updates": [
+      {
+        "name": "Switched from XIGNCODE to GameGuard",
+        "date": "Jun 13, 2024, 0:00 AM",
+        "reference": "https://steamdb.info/depot/1377581/history/?changeid=M:6686394954881915639"
+      }
+    ],
     "storeIds": {
-      "steam": "630100"
+      "steam": "1377580"
     },
     "slug": "soulworker",
-    "dateChanged": "2024-01-28T03:05:01.671Z"
+    "dateChanged": "2024-09-14T00:00:00.000Z"
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
@@ -2464,7 +2479,8 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "FairFight",
+      "Mail.ru Anti-Cheat"
     ],
     "notes": [],
     "updates": [],
@@ -2476,7 +2492,7 @@
       }
     },
     "slug": "warface",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.787Z"
   },
   {
     "url": "",
@@ -3710,7 +3726,7 @@
     "status": "Running",
     "reference": "https://forums.gamersfirst.com/topic/20780-apb-130-on-linux-new-guide-with-proton-ge/",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "SARD"
     ],
     "notes": [
       [
@@ -3723,7 +3739,7 @@
       "steam": "113400"
     },
     "slug": "apb-reloaded",
-    "dateChanged": "2024-02-06T01:20:15.983Z"
+    "dateChanged": "2024-09-08T21:25:56.859Z"
   },
   {
     "url": "",
@@ -3907,7 +3923,7 @@
     "name": "Predator: Hunting Grounds",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -3921,7 +3937,7 @@
       }
     },
     "slug": "predator-hunting-grounds",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-01T22:22:14.332Z"
   },
   {
     "url": "",
@@ -4319,8 +4335,8 @@
     ],
     "notes": [
       [
-        "Currently requires workaround",
-        "https://github.com/starcitizen-lug/information-howtos/wiki/Quick-Start-Guide"
+        "Quick Start Guide (Recommended)",
+        "https://github.com/starcitizen-lug/knowledge-base/wiki/Quick-Start-Guide"
       ]
     ],
     "updates": [
@@ -4332,7 +4348,7 @@
     ],
     "storeIds": {},
     "slug": "star-citizen",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.880Z"
   },
   {
     "url": "https://quake.bethesda.net",
@@ -4456,20 +4472,7 @@
     "anticheats": [
       "Vanguard"
     ],
-    "notes": [
-      [
-        "Will stop working in the future due to the planned implementation of Vanguard kernel-level anticheat",
-        "https://www.youtube.com/watch?v=9U_jEzKf0_0&t=732s"
-      ],
-      [
-        "Works with Lutris",
-        "https://reddit.com/r/leagueoflinux/wiki/index"
-      ],
-      [
-        "Helper script available",
-        "https://github.com/kyechou/leagueoflegends"
-      ]
-    ],
+    "notes": [],
     "updates": [],
     "storeIds": {
       "epic": {
@@ -4478,7 +4481,7 @@
       }
     },
     "slug": "league-of-legends",
-    "dateChanged": "2024-01-23T02:57:04.027Z"
+    "dateChanged": "2024-09-15T22:37:00.936Z"
   },
   {
     "url": "",
@@ -4508,11 +4511,16 @@
     "anticheats": [
       "Easy Anti-Cheat"
     ],
-    "notes": [],
+    "notes": [
+      [
+        "Game may not work out of the box unless you have purchased the DLC, Shadow of the Erdtree.",
+        null
+      ]
+    ],
     "updates": [],
     "storeIds": {},
     "slug": "elden-ring",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.890Z"
   },
   {
     "url": "https://www.tibia.com/",
@@ -4603,7 +4611,7 @@
   },
   {
     "url": "https://www.callofduty.com/blackops4",
-    "name": "Call of Duty: Black Ops 4",
+    "name": "Call of Duty: Black Ops IIII",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -4615,7 +4623,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "call-of-duty-black-ops-4",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-01T22:22:14.359Z"
   },
   {
     "url": "",
@@ -4661,7 +4669,7 @@
     "name": "Vindictus",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Nexon Game Security"
@@ -4672,7 +4680,7 @@
       "steam": "212160"
     },
     "slug": "vindictus",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-09-08T21:25:56.896Z"
   },
   {
     "url": "",
@@ -5266,7 +5274,7 @@
     "native": false,
     "reference": "",
     "anticheats": [
-      "Unknown (Custom)"
+      "KSophon"
     ],
     "notes": [],
     "updates": [
@@ -5284,7 +5292,7 @@
       }
     },
     "slug": "tower-of-fantasy",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-01-20T04:40:56.000Z"
   },
   {
     "url": "https://www.lostlight.game/",
@@ -5505,7 +5513,7 @@
     "name": "Roblox",
     "logo": "",
     "native": false,
-    "status": "Running",
+    "status": "Denied",
     "reference": "https://i.redd.it/wcngc8xapnlc1.png",
     "anticheats": [
       "Hyperion"
@@ -5522,6 +5530,10 @@
       [
         "Use Grapejuice",
         "https://brinkervii.gitlab.io/grapejuice/"
+      ],
+      [
+        "Sober is just Waydroid plus a few additions, which while working, does not constitute as Linux support.",
+        null
       ]
     ],
     "updates": [
@@ -5543,7 +5555,7 @@
     ],
     "storeIds": {},
     "slug": "roblox",
-    "dateChanged": "2024-03-02T20:45:31.412Z"
+    "dateChanged": "2024-09-08T21:25:56.929Z"
   },
   {
     "url": "https://www.boundarygame.com/",
@@ -6121,7 +6133,7 @@
     "dateChanged": "2024-08-18T17:22:04.182Z"
   },
   {
-    "url": "",
+    "url": "https://pc.wfclutch.com/",
     "slug": "warface-clutch",
     "name": "Warface: Clutch",
     "logo": "",
@@ -6129,12 +6141,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "FairFight",
+      "MY.GAMES Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-09T22:20:45.640Z"
+    "dateChanged": "2024-09-15T22:37:01.005Z"
   },
   {
     "url": "",
@@ -6344,12 +6357,12 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Mail.ru Anti-Cheat"
+      "MY.GAMES Anti-Cheat"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-02-18T22:01:10.777Z"
+    "dateChanged": "2024-09-15T22:37:01.023Z"
   },
   {
     "url": "",
@@ -6786,7 +6799,7 @@
   {
     "url": "",
     "slug": "once-human",
-    "name": "Once Human",
+    "name": "Once Human (ROW/INTL)",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -6797,7 +6810,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-07-31T00:01:49.729Z"
+    "dateChanged": "2024-09-08T21:25:56.976Z"
   },
   {
     "url": "",
@@ -6901,14 +6914,9 @@
       "EA anticheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-05T20:28:25.199Z"
+    "dateChanged": "2024-09-15T22:37:01.048Z"
   },
   {
     "url": "",
@@ -6916,7 +6924,7 @@
     "name": "Gray Zone Warfare",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -6924,7 +6932,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-03-10T20:06:54.720Z"
+    "dateChanged": "2024-09-15T22:37:01.049Z"
   },
   {
     "url": "",
@@ -7031,12 +7039,12 @@
     "updates": [],
     "notes": [
       [
-        "Speculative, Unreleased",
+        "Unreleased, Speculative",
         null
       ]
     ],
     "storeIds": {},
-    "dateChanged": "2024-04-13T00:38:46.049Z"
+    "dateChanged": "2024-09-01T22:22:14.478Z"
   },
   {
     "url": "",
@@ -7124,14 +7132,9 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Working in Closed Beta",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-04-13T23:13:17.478Z"
+    "dateChanged": "2024-09-15T22:37:01.062Z"
   },
   {
     "url": "",
@@ -7350,14 +7353,9 @@
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-05-20T21:30:11.790Z"
+    "dateChanged": "2024-09-15T22:37:01.071Z"
   },
   {
     "url": "",
@@ -7479,12 +7477,13 @@
     "status": "Running",
     "reference": "",
     "anticheats": [
-      "IronShield"
+      "IronShield",
+      "Tavern"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-05-22T22:24:18.973Z"
+    "dateChanged": "2024-05-23T22:24:18.973Z"
   },
   {
     "url": "",
@@ -7764,20 +7763,15 @@
     "name": "Project L33T",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-06-17T21:55:25.254Z"
+    "dateChanged": "2024-09-15T22:37:01.101Z"
   },
   {
     "url": "",
@@ -8676,14 +8670,9 @@
       "BattlEye"
     ],
     "updates": [],
-    "notes": [
-      [
-        "Unreleased, Explicitly denied in Open Beta",
-        null
-      ]
-    ],
+    "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-08-11T23:02:07.610Z"
+    "dateChanged": "2024-09-15T22:37:01.139Z"
   },
   {
     "url": "",
@@ -9048,20 +9037,21 @@
     "name": "Harry Potter: Quidditch Champions",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Supported",
     "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
+    "anticheats": [],
+    "updates": [
+      {
+        "name": "Removed EAC during playtest.",
+        "date": "Aug 2, 2024, 0:00 AM",
+        "reference": "https://steamdb.info/depot/2240861/history/"
+      }
     ],
-    "updates": [],
-    "notes": [
-      [
-        "Unreleased, Speculative",
-        null
-      ]
-    ],
-    "storeIds": {},
-    "dateChanged": "2024-08-26T20:56:24.259Z"
+    "notes": [],
+    "storeIds": {
+      "steam": "2878600"
+    },
+    "dateChanged": "2024-09-14T00:00:00.000Z"
   },
   {
     "url": "https://aion.gameforge.com/",
@@ -9203,5 +9193,432 @@
     ],
     "storeIds": {},
     "dateChanged": "2024-08-26T20:56:24.259Z"
+  },
+  {
+    "url": "",
+    "slug": "skull-and-bones",
+    "name": "Skull and Bones",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-01T22:22:14.556Z"
+  },
+  {
+    "url": "",
+    "slug": "critter-crunch",
+    "name": "Critter Crunch",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-02T22:03:09.735Z"
+  },
+  {
+    "url": "",
+    "slug": "inversion",
+    "name": "Inversion™",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-02T22:03:09.737Z"
+  },
+  {
+    "url": "",
+    "slug": "neotokyo",
+    "name": "NEOTOKYO",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-02T22:03:09.738Z"
+  },
+  {
+    "url": "",
+    "slug": "warlords-awakening",
+    "name": "Warlords Awakening",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-04T04:47:09.096Z"
+  },
+  {
+    "url": "",
+    "slug": "infestation-survivor-stories-classic",
+    "name": "Infestation: Survivor Stories Classic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-04T22:34:49.721Z"
+  },
+  {
+    "url": "",
+    "slug": "diablo-iii",
+    "name": "Diablo® III",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-05T22:01:18.689Z"
+  },
+  {
+    "url": "",
+    "slug": "soldier-one",
+    "name": "Solider One",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-05T22:01:18.690Z"
+  },
+  {
+    "url": "",
+    "slug": "3on3-freestyle",
+    "name": "3on3 FreeStyle",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-05T22:01:18.691Z"
+  },
+  {
+    "url": "",
+    "slug": "one-punch-man-a-hero-nobody-knows",
+    "name": "One Punch Man: A Hero Nobody Knows",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "csgo-challengermode",
+    "name": "Counter-Strike: Global Offensive (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "blackshot-mercenary-warfare-fps",
+    "name": "BlackShot: Mercenary Warfare FPS",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye",
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "ring-of-elysium",
+    "name": "Ring of Elysium",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "TenProtect"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-06T20:30:07.639Z"
+  },
+  {
+    "url": "",
+    "slug": "test-drive-unlimited-solar-crown",
+    "name": "Test Drive Unlimited Solar Crown",
+    "logo": "",
+    "native": false,
+    "status": "Planned",
+    "reference": "https://steamdeckhq.com/news/test-drive-unlimited-solar-crown-steam-deck/",
+    "anticheats": [
+      "Unknown (Custom)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-15T22:37:01.179Z"
+  },
+  {
+    "url": "",
+    "slug": "resident-evil-resistance",
+    "name": "Resident Evil Resistance",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Denuvo Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Denuvo has been removed as of October 2020.",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-08T21:25:57.076Z"
+  },
+  {
+    "url": "",
+    "slug": "synergy",
+    "name": "Synergy",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-09T19:46:10.761Z"
+  },
+  {
+    "url": "",
+    "slug": "revelations-2012",
+    "name": "Revelations 2012",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-09T19:46:10.765Z"
+  },
+  {
+    "url": "",
+    "slug": "shot-online",
+    "name": "Shot Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-10T21:16:34.803Z"
+  },
+  {
+    "url": "",
+    "slug": "medal-of-honor-airborne",
+    "name": "Medal of Honor: Airborne",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-11T22:09:08.466Z"
+  },
+  {
+    "url": "",
+    "slug": "starcraft-remastered",
+    "name": "StarCraft: Remastered",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Warden"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-12T21:54:30.853Z"
+  },
+  {
+    "url": "",
+    "slug": "magic-to-master",
+    "name": "Magic to Master",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "SARD"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-09-13T20:25:01.766Z"
+  },
+  {
+    "url": "",
+    "slug": "3on3-freestyle-rebound",
+    "name": "3on3 FreeStyle: Rebound",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-14T20:30:51.204Z"
+  },
+  {
+    "url": "",
+    "slug": "dual-universe",
+    "name": "Dual Universe",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-15T22:37:01.190Z"
+  },
+  {
+    "url": "",
+    "slug": "cs2-for-challengermode",
+    "name": "Counter-Strike 2 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-16T21:14:19.243Z"
+  },
+  {
+    "url": "",
+    "slug": "blacklight-retribution",
+    "name": "Blacklight: Retribution",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-16T21:14:19.247Z"
+  },
+  {
+    "url": "",
+    "slug": "astra-knights-of-veda",
+    "name": "ASTRA: Knights of Veda",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Anti-Cheat Expert"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-09-16T21:14:19.247Z"
   }
 ]

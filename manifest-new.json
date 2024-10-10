@@ -4550,7 +4550,7 @@
     "updates": [],
     "storeIds": {},
     "slug": "tibia",
-    "dateChanged": "2024-10-10T01:03:28.331Z"
+    "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
     "url": "",
@@ -12064,14 +12064,14 @@
   },
   {
     "url": "",
-    "slug": "tibia",
-    "name": "Tibia",
+    "slug": "cod-blops3-for-challengermode",
+    "name": "Call of Duty: Black Ops 3 (ChallengerMode)",
     "logo": "",
     "native": false,
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "EMAC LAB"
+      "Arkos"
     ],
     "updates": [],
     "notes": [],

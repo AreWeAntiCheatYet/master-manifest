@@ -14971,7 +14971,7 @@
   {
     "url": "",
     "slug": "fear-the-wolves",
-    "name": "Fear The Wolves",
+    "name": "Fear the Wolves",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -14982,7 +14982,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
     "url": "",
@@ -16815,22 +16815,6 @@
     "url": "",
     "slug": "reign-of-dwarf",
     "name": "Reign Of Dwarf",
-    "logo": "",
-    "native": false,
-    "status": "Broken",
-    "reference": "",
-    "anticheats": [
-      "Easy Anti-Cheat"
-    ],
-    "updates": [],
-    "notes": [],
-    "storeIds": {},
-    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
-  },
-  {
-    "url": "",
-    "slug": "fear-the-wolves",
-    "name": "Fear the Wolves",
     "logo": "",
     "native": false,
     "status": "Broken",

@@ -96,7 +96,7 @@
   },
   {
     "url": "",
-    "name": "Battlefield 2042",
+    "name": "Battlefield™ 2042",
     "logo": "",
     "native": false,
     "status": "Denied",
@@ -114,14 +114,14 @@
       }
     },
     "slug": "battlefield-2042",
-    "dateChanged": "2024-01-26T01:24:49.589Z"
+    "dateChanged": "2024-11-04T00:18:17.181Z"
   },
   {
     "url": "https://www.ea.com/games/apex-legends",
     "name": "Apex Legends",
     "logo": "",
     "native": false,
-    "status": "Supported",
+    "status": "Denied",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat",
@@ -133,13 +133,18 @@
         "name": "Enabled Linux support shortly after SteamDeck launch",
         "date": "2022-03-01T18:00:27+00:00",
         "reference": "https://steamdb.info/patchnotes/8270674/"
+      },
+      {
+        "name": "Linux support disabled",
+        "date": "Oct 31, 2024, 4:07 PM UTC",
+        "reference": "https://x.com/PlayApex/status/1852019667315102151"
       }
     ],
     "storeIds": {
       "steam": "1172470"
     },
     "slug": "apex-legends",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-10-31T18:29:00.000Z"
   },
   {
     "url": "https://playvalorant.com",
@@ -3577,13 +3582,14 @@
     "status": "Supported",
     "reference": "",
     "anticheats": [
-      "VAC"
+      "VAC",
+      "BattlEye"
     ],
     "notes": [],
     "updates": [],
     "storeIds": {},
     "slug": "day-of-infamy",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-04T00:18:17.247Z"
   },
   {
     "url": "",
@@ -3820,7 +3826,8 @@
     "status": "Supported",
     "reference": "https://www.protondb.com/app/282440",
     "anticheats": [
-      "PunkBuster"
+      "PunkBuster",
+      "VAC"
     ],
     "notes": [],
     "updates": [],
@@ -3828,7 +3835,7 @@
       "steam": "282440"
     },
     "slug": "quake-live",
-    "dateChanged": "2024-01-19T04:40:56.000Z"
+    "dateChanged": "2024-11-04T00:18:17.253Z"
   },
   {
     "url": "",
@@ -4298,7 +4305,7 @@
   },
   {
     "url": "https://www.ubisoft.com/en-us/game/watch-dogs/legion",
-    "name": "Watch Dogs: Legion",
+    "name": "Watch Dogs®: Legion",
     "logo": "",
     "native": false,
     "status": "Supported",
@@ -4326,7 +4333,7 @@
       }
     },
     "slug": "watch-dogs-legion",
-    "dateChanged": "2024-10-20T20:59:10.871Z"
+    "dateChanged": "2024-11-04T00:18:17.261Z"
   },
   {
     "url": "",
@@ -5243,6 +5250,7 @@
     "reference": "",
     "anticheats": [
       "X-Trap",
+      "PunkBuster",
       "XIGNCODE3"
     ],
     "notes": [],
@@ -5251,7 +5259,7 @@
       "steam": "389430"
     },
     "slug": "knight-online",
-    "dateChanged": "2024-10-13T20:19:23.714Z"
+    "dateChanged": "2024-11-04T00:18:17.277Z"
   },
   {
     "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-the-breakers",
@@ -5953,12 +5961,12 @@
     "dateChanged": "2024-01-19T04:40:56.000Z"
   },
   {
-    "url": "",
+    "url": "https://arcraiders.com",
     "slug": "arc-raiders",
     "name": "ARC Raiders",
     "logo": "",
     "native": false,
-    "status": "Broken",
+    "status": "Running",
     "reference": "",
     "anticheats": [
       "Easy Anti-Cheat"
@@ -5966,12 +5974,18 @@
     "updates": [],
     "notes": [
       [
-        "Unreleased, Speculative",
+        "Unreleased, Working in Closed Beta",
         null
       ]
     ],
-    "storeIds": {},
-    "dateChanged": "2024-08-11T10:19:19.031Z"
+    "storeIds": {
+      "steam": "1808500",
+      "epic": {
+        "namespace": "b4bb52a95d0b43d9af543c6ec3c54e04",
+        "slug": "arc-raiders"
+      }
+    },
+    "dateChanged": "2024-11-04T00:18:17.287Z"
   },
   {
     "url": "",
@@ -9764,7 +9778,7 @@
   {
     "url": "",
     "slug": "assassins-creed3",
-    "name": "Assassin's Creed 3",
+    "name": "Assassin's Creed® III",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -9775,7 +9789,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-09-20T19:51:25.507Z"
+    "dateChanged": "2024-11-04T00:18:17.338Z"
   },
   {
     "url": "",
@@ -12234,7 +12248,7 @@
   {
     "url": "",
     "slug": "tom-clancys-ghost-recon-future-soldier",
-    "name": "Tom Clancy's Ghost Recon Future Soldier",
+    "name": "Tom Clancy's Ghost Recon: Future Soldier",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -12245,7 +12259,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-13T22:38:31.288Z"
+    "dateChanged": "2024-11-04T00:18:17.371Z"
   },
   {
     "url": "",
@@ -12930,7 +12944,7 @@
   {
     "url": "",
     "slug": "dirt-rally-2",
-    "name": "Dirt Rally 2.0",
+    "name": "DiRT Rally 2.0",
     "logo": "",
     "native": false,
     "status": "Running",
@@ -12941,7 +12955,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-18T17:04:48.782182-05:00"
+    "dateChanged": "2024-11-04T00:18:17.382Z"
   },
   {
     "url": "",
@@ -13465,12 +13479,13 @@
     "status": "Broken",
     "reference": "",
     "anticheats": [
-      "Easy Anti-Cheat"
+      "Easy Anti-Cheat",
+      "XIGNCODE3"
     ],
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-22T16:28:22.251565-05:00"
+    "dateChanged": "2024-11-04T00:18:17.391Z"
   },
   {
     "url": "",
@@ -14956,7 +14971,7 @@
   {
     "url": "",
     "slug": "fear-the-wolves",
-    "name": "Fear The Wolves",
+    "name": "Fear the Wolves",
     "logo": "",
     "native": false,
     "status": "Broken",
@@ -14967,7 +14982,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-10-26T16:25:55.481593-05:00"
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
   },
   {
     "url": "",
@@ -15767,5 +15782,1896 @@
     "notes": [],
     "storeIds": {},
     "dateChanged": "2024-10-27T16:28:12.861702-05:00"
+  },
+  {
+    "url": "",
+    "slug": "wickland",
+    "name": "Wickland",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.338472-05:00"
+  },
+  {
+    "url": "",
+    "slug": "istorm",
+    "name": "iStorm",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dragon-sky",
+    "name": "Dragon Sky",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "ernis-and-fricky",
+    "name": "Ernis&Fricky",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "cod-united-offensive",
+    "name": "Call of Duty: United Offensive",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "elsword-japan",
+    "name": "Elsword (JPN)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.339473-05:00"
+  },
+  {
+    "url": "",
+    "slug": "crsed-cuisine-royale",
+    "name": "CRSED: Cuisine Royale",
+    "logo": "",
+    "native": false,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.340530-05:00"
+  },
+  {
+    "url": "",
+    "slug": "project-nebula",
+    "name": "Project Nebula",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "reign-of-kings",
+    "name": "Reign of Kings",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "soldier-front-2-playpark-philippines",
+    "name": "Special Force 2 - PlayPark PH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mechabellum-for-challengermode",
+    "name": "Mechabellum (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mirror-war",
+    "name": "Mirror War",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "killing-floor3",
+    "name": "Killing Floor 3",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.341050-05:00"
+  },
+  {
+    "url": "",
+    "slug": "sniper-elite-5",
+    "name": "Sniper Elite 5",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "resident-evil-6",
+    "name": "Resident Evil 6",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dark-eden-origin",
+    "name": "Dark Eden Origin",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "yaburi",
+    "name": "Yaburi",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "pfamily-new-heavenly-monument-taiwan",
+    "name": "新天上碑",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "assassins-creed-brotherhood",
+    "name": "Assassin's Creed: Brotherhood",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-28T10:56:10.342046-05:00"
+  },
+  {
+    "url": "",
+    "slug": "freestyle-football-r",
+    "name": "FreestyleFootball R",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.601297-05:00"
+  },
+  {
+    "url": "",
+    "slug": "night-of-the-dead",
+    "name": "Night of the Dead",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.602277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dysterra",
+    "name": "Dysterra",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.602277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "heat",
+    "name": "Heat",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "pubg-bg-for-challengermode",
+    "name": "PUBG: Battlegrounds (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-cycle-frontier",
+    "name": "The Cycle: Frontier",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "club-audition",
+    "name": "Club Audition",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.603277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "space-gears",
+    "name": "Space Gears",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.604277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "hero-siege",
+    "name": "Hero Siege",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.604277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "moonbase-alpha",
+    "name": "Moonbase Alpha",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.604277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "navyfield4-hongkong",
+    "name": "大海战 Navy Field IV",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.605284-05:00"
+  },
+  {
+    "url": "",
+    "slug": "onair-online",
+    "name": "Onair Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.605284-05:00"
+  },
+  {
+    "url": "",
+    "slug": "stylia",
+    "name": "STYLIA",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.605284-05:00"
+  },
+  {
+    "url": "",
+    "slug": "doom3-resurrection-of-evil",
+    "name": "DOOM 3 Resurrection of Evil",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.606280-05:00"
+  },
+  {
+    "url": "",
+    "slug": "karos",
+    "name": "Karos",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.606280-05:00"
+  },
+  {
+    "url": "",
+    "slug": "blasterbeat",
+    "name": "BlasterBeat",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.607277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "warcos",
+    "name": "Warcos",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.607277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "code2040",
+    "name": "CODE2040",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-29T18:06:44.607277-05:00"
+  },
+  {
+    "url": "",
+    "slug": "forts-for-challengermode",
+    "name": "Forts (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.614771-05:00"
+  },
+  {
+    "url": "www.dragona.online",
+    "slug": "dragona",
+    "name": "Dragona",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.614771-05:00"
+  },
+  {
+    "url": "",
+    "slug": "raise-your-tribe",
+    "name": "Raise Your Tribe",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.614771-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tasty-shame-in-silver-soul",
+    "name": "Tasty Shame in Silver Soul!",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "",
+    "slug": "citybattle-virtual-earth-europe",
+    "name": "CityBattle | Virtual Earth (EU)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "https://rfonlineglobal.com/",
+    "slug": "risingforce-online",
+    "name": "RF Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "",
+    "slug": "crasher",
+    "name": "Crasher",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "",
+    "slug": "raiderz",
+    "name": "RaiderZ",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "",
+    "slug": "rose-online",
+    "name": "ROSE Online",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "",
+    "slug": "fanta-tennis",
+    "name": "Fanta-Tennis",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.615769-05:00"
+  },
+  {
+    "url": "",
+    "slug": "far-cry",
+    "name": "Far Cry",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.616768-05:00"
+  },
+  {
+    "url": "",
+    "slug": "astellia",
+    "name": "Astellia",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.616768-05:00"
+  },
+  {
+    "url": "",
+    "slug": "blockade",
+    "name": "Blockade",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.616768-05:00"
+  },
+  {
+    "url": "",
+    "slug": "hearthstone-for-challengermode",
+    "name": "Hearthstone (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.616768-05:00"
+  },
+  {
+    "url": "",
+    "slug": "deathgarden-bloodharvest",
+    "name": "Deathgarden: Bloodharvest",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.616768-05:00"
+  },
+  {
+    "url": "",
+    "slug": "12sky2",
+    "name": "TwelveSky 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-30T17:48:27.617777-05:00"
+  },
+  {
+    "url": "",
+    "slug": "island-games",
+    "name": "Island games",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.102631-05:00"
+  },
+  {
+    "url": "",
+    "slug": "robocraft2",
+    "name": "Robocraft 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dystopia",
+    "name": "Dystopia",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dark-blood-online",
+    "name": "Dark Blood Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "battleteams1-classic-china",
+    "name": "生死狙击：战火重燃（国际版）",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "https://www.gamecity.ne.jp/sol",
+    "slug": "sangokushi-online",
+    "name": "Sangokushi Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "far-cry2",
+    "name": "Far Cry 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.103630-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tree-of-life",
+    "name": "Tree of Life",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "longvinter",
+    "name": "Longvinter",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "new-gundam-breaker",
+    "name": "New Gundam Breaker",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "reign-of-dwarf",
+    "name": "Reign Of Dwarf",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "the-finals-for-challengermode",
+    "name": "The Finals (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "escape-from-tarkov-arena",
+    "name": "Escape from Tarkov: Arena",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.104637-05:00"
+  },
+  {
+    "url": "",
+    "slug": "mixmaster",
+    "name": "Mixmaster",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
+  },
+  {
+    "url": "",
+    "slug": "shaiya",
+    "name": "shaiya",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
+  },
+  {
+    "url": "",
+    "slug": "maplestory-worlds",
+    "name": "MapleStory Worlds",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-10-31T15:26:18.105628-05:00"
+  },
+  {
+    "url": "",
+    "slug": "evolve-stage2",
+    "name": "Evolve Stage 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.207468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "trinium-wars",
+    "name": "Trinium Wars",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.208468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "extreme-soccer",
+    "name": "Extreme Soccer",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.208468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "r2beat-china",
+    "name": "R2Beat: 音速觉醒",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.209468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tom-clancys-rainbow-six-lockdown",
+    "name": "Tom Clancy's Rainbow Six: Lockdown",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.210479-05:00"
+  },
+  {
+    "url": "",
+    "slug": "soulsaveronline",
+    "name": "SoulSaverOnline",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.211480-05:00"
+  },
+  {
+    "url": "",
+    "slug": "pax-dei",
+    "name": "Pax Dei",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.211480-05:00"
+  },
+  {
+    "url": "",
+    "slug": "shaiya-philippines",
+    "name": "Shaiya PH",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.211480-05:00"
+  },
+  {
+    "url": "",
+    "slug": "smite2-for-challengermode",
+    "name": "SMITE 2 (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.212468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "zula-turkey",
+    "name": "Zula Türkiye",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.212468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "kalonline",
+    "name": "KAL Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.212468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "tree-of-savior-korea",
+    "name": "Tree of Savior (Korean Ver.)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Nexon Game Security"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.212468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "project-ethos",
+    "name": "Project ETHOS",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.212468-05:00"
+  },
+  {
+    "url": "",
+    "slug": "global-strike",
+    "name": "Global Strike",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Custom (Unknown)"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.213485-05:00"
+  },
+  {
+    "url": "",
+    "slug": "dead-island",
+    "name": "Dead Island",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.213485-05:00"
+  },
+  {
+    "url": "",
+    "slug": "comeonbaby",
+    "name": "COMEONBABY",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-01T15:44:02.213485-05:00"
+  },
+  {
+    "url": "",
+    "slug": "assassins-creed-revelations",
+    "name": "Assassin's Creed: Revelations",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.653851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "wolfteam-classic",
+    "name": "WolfTeam: Classic",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "fractured-lands",
+    "name": "Fractured Lands",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "lost-light-for-challengermode",
+    "name": "Lost Light (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "luna-online",
+    "name": "Luna Online",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "marathon",
+    "name": "Marathon",
+    "logo": "",
+    "native": false,
+    "status": "Denied",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "phantasy-star-online2-new-genesis",
+    "name": "Phantasy Star Online 2 New Genesis",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.654851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "fortress-forever",
+    "name": "Fortress Forever",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "crazy-arcade",
+    "name": "Crazy Arcade",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "tom-clancys-rainbow-six-vegas",
+    "name": "Tom Clancy's Rainbow Six: Vegas",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "eos-ragnarok",
+    "name": "EOS Ragnarok",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "war-of-the-vikings",
+    "name": "War of the Vikings",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.655851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "iracing-for-challengermode",
+    "name": "iRacing (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.656851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "battalion-1944",
+    "name": "Battalion 1944",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat",
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T00:18:17.443Z"
+  },
+  {
+    "url": "",
+    "slug": "audition2",
+    "name": "Audition 2",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.656851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "sparkball",
+    "name": "Sparkball",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "jabroni-brawl-episode3",
+    "name": "Jabroni Brawl: Episode 3",
+    "logo": "",
+    "native": true,
+    "status": "Supported",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-04T00:18:17.444Z"
+  },
+  {
+    "url": "",
+    "slug": "grid2",
+    "name": "GRID 2",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Online Play working, Rival Data and Global Challenges inaccessible",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "ctracer-online",
+    "name": "CTRACER ONLINE",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.657851-06:00"
+  },
+  {
+    "url": "",
+    "slug": "space-nations-battlearena",
+    "name": "Space Nations - Battlearena",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "moonbreaker-for-challengermode",
+    "name": "Moonbreaker (ChallengerMode)",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Arkos"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "zula-europe",
+    "name": "Zula Europe",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "BattlEye"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "audition3-wia",
+    "name": "Audition 3 WIA",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "X-Trap"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "sand",
+    "name": "SAND",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [
+      [
+        "Unreleased, Speculative",
+        null
+      ]
+    ],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "exoprimal",
+    "name": "Exoprimal",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "war-of-the-roses",
+    "name": "War of the Roses",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "VAC"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.658853-06:00"
+  },
+  {
+    "url": "",
+    "slug": "bots",
+    "name": "Bots",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "nProtect GameGuard"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "need-for-speed-undercover",
+    "name": "Need for Speed: Undercover",
+    "logo": "",
+    "native": false,
+    "status": "Running",
+    "reference": "",
+    "anticheats": [
+      "PunkBuster"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "wolfteam-reboot",
+    "name": "WolfTeam: Reboot",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "XIGNCODE3"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
+  },
+  {
+    "url": "",
+    "slug": "sabotaj",
+    "name": "Sabotaj",
+    "logo": "",
+    "native": false,
+    "status": "Broken",
+    "reference": "",
+    "anticheats": [
+      "Easy Anti-Cheat"
+    ],
+    "updates": [],
+    "notes": [],
+    "storeIds": {},
+    "dateChanged": "2024-11-03T15:08:08.659850-06:00"
   }
 ]

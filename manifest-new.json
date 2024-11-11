@@ -18417,7 +18417,7 @@
     "slug": "counter-strike",
     "name": "Counter-Strike",
     "logo": "",
-    "native": false,
+    "native": true,
     "status": "Supported",
     "reference": "",
     "anticheats": [
@@ -18426,7 +18426,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-11-10T23:20:07.490699-06:00"
+    "dateChanged": "2024-11-11T19:26:00.297Z"
   },
   {
     "url": "",
@@ -18715,7 +18715,7 @@
     "slug": "counter-strike-condition-zero",
     "name": "Counter-Strike: Condition Zero",
     "logo": "",
-    "native": false,
+    "native": true,
     "status": "Supported",
     "reference": "",
     "anticheats": [
@@ -18724,7 +18724,7 @@
     "updates": [],
     "notes": [],
     "storeIds": {},
-    "dateChanged": "2024-11-10T23:20:07.495701-06:00"
+    "dateChanged": "2024-11-11T19:26:00.302Z"
   },
   {
     "url": "",
